@@ -34,10 +34,42 @@ body {
 }
 
 #content-1 {
-    height: 350px;
     background-color: #1F2937;
     padding-top: 150px;
     padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#awesome-website {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#sign-up {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 25px;
+}
+
+#image {
+    flex-shrink: 0;
+    min-width: 50%;
+    color: #E5E7EB;
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #content-2 {
